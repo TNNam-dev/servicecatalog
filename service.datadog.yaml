@@ -1,0 +1,469 @@
+## Service 31
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-index-aggregate-put-through-to-redis",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job aggregate PT to redis",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 32
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-index-aggregate-stats",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job aggregate index stats",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 33
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-index-aggregate-stats-five-seconds-passed",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job aggregate index stats after every 5 seconds",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 34
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-sync-index-data-one-minute-passed",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job sync index data to db every 1 minutes",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 35
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-sync-market-data-15-seconds-passed",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job sync market data every 15 seconds passed",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 36
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-sync-market-data-end-of-day-passed",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job sync market data when end of day",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 37
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-sync-market-data-start-of-day-passed",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job sync market data when start of day trading",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 38
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-ticker-aggregate-contribution-to-redis",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job aggregate ticker contribution to redis",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 39
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-ticker-foreign-to-db",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "job save ticker foreign data to db",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
+---
+## Service 40
+{
+  "schema-version": "v2.2",
+  "dd-service": "data-consumer-ticker-market-cap-to-db",
+  "team": "DTI",
+  "lifecycle": "production",
+  "application": "hsc-dti-trading-ns",
+  "description": "jjob save ticker marketcap to db",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "javascript"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/Lotus/_git/Lotus"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onecore",
+    "ns:hsc-dti-trading-ns",
+    "role:market-data",
+    "svc-name:data-api-svc",
+    "svc-type:job",
+    "team:dti"
+  ]
+}
