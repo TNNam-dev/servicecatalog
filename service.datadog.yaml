@@ -1,3 +1,681 @@
+## Service 1
+{
+  "schema-version": "v2.2",
+  "dd-service": "kong-dmz-kong",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "kong-dmz",
+  "description": "kong for dmz",
+  "tier": "1",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-dmz",
+    "svc-name:kong-dmz",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 2
+{
+  "schema-version": "v2.2",
+  "dd-service": "kong-internal-kong",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "kong-internal",
+  "description": "kong for internal",
+  "tier": "1",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-internal",
+    "svc-name:kong-internal",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 3
+{
+  "schema-version": "v2.2",
+  "dd-service": "kong-streaming-kong",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "kong-streaming",
+  "description": "kong for streaming",
+  "tier": "1",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-streaming",
+    "svc-name:kong-streaming",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 4
+{
+  "schema-version": "v2.2",
+  "dd-service": "stream-nonmstr",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "datafeed",
+  "description": "streaming server",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:datafeed",
+    "svc-name:stream-nonmstr",
+    "svc-type:datafeed",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 5
+{
+  "schema-version": "v2.2",
+  "dd-service": "streaming-dev",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "datafeed",
+  "description": "streaming server",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:datafeed",
+    "svc-name:streaming-dev",
+    "svc-type:datafeed",
+    "team:it"
+  ]
+}
+---
+## Service 6
+{
+  "schema-version": "v2.2",
+  "dd-service": "streaming-redis",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "datafeed",
+  "description": "sync data from many  streaming servers",
+  "tier": "1",
+  "type": "db",
+  "languages": [
+    "ANSI C"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:datafeed",
+    "svc-name:streaming-redis",
+    "svc-type:datafeed",
+    "team:it"
+  ]
+}
+---
+## Service 7
+{
+  "schema-version": "v2.2",
+  "dd-service": "streaming-sv",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "datafeed",
+  "description": "streaming server",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:datafeed",
+    "svc-name:streaming-sv",
+    "svc-type:datafeed",
+    "team:it"
+  ]
+}
+---
+## Service 8
+{
+  "schema-version": "v2.2",
+  "dd-service": "adjustmentprice-tool",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "calculate adjusted price for historical data",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-type:api",
+    "team:it"
+  ]
+}
+---
+## Service 9
+{
+  "schema-version": "v2.2",
+  "dd-service": "api-cache",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "cache api to increase api performance",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:api-cache-svc",
+    "svc-type:api",
+    "team:it"
+  ]
+}
+---
+## Service 10
+{
+  "schema-version": "v2.2",
+  "dd-service": "corporate-data",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "api for corporate data",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:corporate-data-svc",
+    "svc-type:api",
+    "team:it",
+    "url:corpinfo.hsc.com.vn"
+  ]
+}
+---
+## Service 11
+{
+  "schema-version": "v2.2",
+  "dd-service": "crawl-data",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "crawl fiin data everyday",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:crawl-data-svc",
+    "svc-type:api",
+    "team:it"
+  ]
+}
+---
+## Service 12
+{
+  "schema-version": "v2.2",
+  "dd-service": "fiin-data",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "api for fiin data",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:fiin-data-svc",
+    "svc-type:api",
+    "team:it",
+    "url:mdata.hsc.com.vn"
+  ]
+}
+---
+## Service 13
+{
+  "schema-version": "v2.2",
+  "dd-service": "foreign-data",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "api for foreign data",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:foreign-data-svc",
+    "svc-type:api",
+    "team:it",
+    "url:essentials-info.hsc.com.vn"
+  ]
+}
+---
+## Service 14
+{
+  "schema-version": "v2.2",
+  "dd-service": "market-data-api",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "api for market data",
+  "tier": "1",
+  "type": "api",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:market-data-api-svc",
+    "svc-type:api",
+    "team:it",
+    "url:marketapi.hsc.com.vn"
+  ]
+}
+---
+## Service 15
+{
+  "schema-version": "v2.2",
+  "dd-service": "market-his",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "market-data",
+  "description": "store historical data",
+  "tier": "1",
+  "type": "app",
+  "languages": [
+    "go"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "links": [
+    {
+      "name": "Source",
+      "type": "repo",
+      "provider": "git",
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:market-data",
+    "role:market-data",
+    "svc-name:market-his-svc",
+    "svc-type:api",
+    "team:it"
+  ]
+}
+---
 ## Service 31
 {
   "schema-version": "v2.2",
