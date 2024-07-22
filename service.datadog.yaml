@@ -2,28 +2,28 @@
 ## Service 11
 {
   "schema-version": "v2.2",
-  "dd-service": "crawl-data",
+  "dd-service": "mirrored-library-traefik",
   "team": "IT",
   "lifecycle": "production",
   "application": "market-data",
   "description": "crawl fiin data everyday",
   "tier": "1",
-  "type": "app",
+  "type": "db",
   "languages": [
     "go"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/xxx"
     }
   ],
   "links": [
@@ -31,7 +31,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
@@ -49,28 +49,28 @@
 ## Service 12
 {
   "schema-version": "v2.2",
-  "dd-service": "fiin-data",
+  "dd-service": "agent",
   "team": "IT",
   "lifecycle": "production",
   "application": "market-data",
   "description": "api for fiin data",
   "tier": "1",
-  "type": "api",
+  "type": "job",
   "languages": [
-    "go"
+    "javascript"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/xxx"
     }
   ],
   "links": [
@@ -78,7 +78,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
@@ -90,35 +90,35 @@
     "svc-name:fiin-data-svc",
     "svc-type:api",
     "team:it",
-    "url:mdata.hsc.com.vn"
+    "url:mdata.xxx.com.vn"
   ]
 }
 ---
 ## Service 13
 {
   "schema-version": "v2.2",
-  "dd-service": "foreign-data",
+  "dd-service": "operator",
   "team": "IT",
   "lifecycle": "production",
   "application": "market-data",
   "description": "api for foreign data",
   "tier": "1",
-  "type": "api",
+  "type": "cache",
   "languages": [
-    "go"
+    "python"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/xxx"
     }
   ],
   "links": [
@@ -126,7 +126,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
@@ -138,35 +138,35 @@
     "svc-name:foreign-data-svc",
     "svc-type:api",
     "team:it",
-    "url:essentials-info.hsc.com.vn"
+    "url:essentials-info.xxx.com.vn"
   ]
 }
 ---
 ## Service 14
 {
   "schema-version": "v2.2",
-  "dd-service": "market-data-api",
+  "dd-service": "cluster-agent",
   "team": "IT",
   "lifecycle": "production",
   "application": "market-data",
   "description": "api for market data",
-  "tier": "1",
-  "type": "api",
+  "tier": "2",
+  "type": "mobile",
   "languages": [
-    "go"
+    "dotnet"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/xxx"
     }
   ],
   "links": [
@@ -174,7 +174,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
@@ -186,14 +186,14 @@
     "svc-name:market-data-api-svc",
     "svc-type:api",
     "team:it",
-    "url:marketapi.hsc.com.vn"
+    "url:marketapi.xxx.com.vn"
   ]
 }
 ---
 ## Service 15
 {
   "schema-version": "v2.2",
-  "dd-service": "market-his",
+  "dd-service": "mirrored-coredns-coredns",
   "team": "IT",
   "lifecycle": "production",
   "application": "market-data",
@@ -201,20 +201,20 @@
   "tier": "1",
   "type": "app",
   "languages": [
-    "go"
+    "java"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/xxx"
     }
   ],
   "links": [
@@ -222,7 +222,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
