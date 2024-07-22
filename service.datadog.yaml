@@ -1,29 +1,142 @@
-
-## Service 11
+## Service 1
 {
   "schema-version": "v2.2",
-  "dd-service": "mirrored-library-traefik",
+  "dd-service": "kong-dmz-kong",
   "team": "IT",
   "lifecycle": "production",
-  "application": "market-data",
-  "description": "crawl fiin data everyday",
+  "application": "kong-dmz",
+  "description": "kong for dmz",
   "tier": "1",
-  "type": "db",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-dmz",
+    "svc-name:kong-dmz",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 2
+{
+  "schema-version": "v2.2",
+  "dd-service": "kong-internal-kong",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "kong-internal",
+  "description": "kong for internal",
+  "tier": "1",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-internal",
+    "svc-name:kong-internal",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 3
+{
+  "schema-version": "v2.2",
+  "dd-service": "kong-streaming-kong",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "kong-streaming",
+  "description": "kong for streaming",
+  "tier": "1",
+  "languages": [
+    "lua"
+  ],
+  "contacts": [
+    {
+      "type": "slack",
+      "contact": "https://hooks.slack.com/services/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"
+    },
+    {
+      "type": "email",
+      "contact": "apps@hsc.com.vn"
+    },
+    {
+      "type": "microsoft-teams",
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+    }
+  ],
+  "tags": [
+    "env:production",
+    "app:one",
+    "cluster:onedmz",
+    "ns:kong-streaming",
+    "svc-name:kong-streaming",
+    "svc-type:Kong",
+    "team:it",
+    "url:market-streaming.hsc.com.vn/connection/websocket"
+  ]
+}
+---
+## Service 4
+{
+  "schema-version": "v2.2",
+  "dd-service": "stream-nonmstr",
+  "team": "IT",
+  "lifecycle": "production",
+  "application": "datafeed",
+  "description": "streaming server",
+  "tier": "1",
+  "type": "app",
   "languages": [
     "go"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/xxx"
+      "contact": "https://hooks.slack.com/services/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"
     },
     {
       "type": "email",
-      "contact": "apps@xxx.com.vn"
+      "contact": "apps@hsc.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/xxx"
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
     }
   ],
   "links": [
@@ -31,94 +144,46 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/xxx"
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
     }
   ],
   "tags": [
     "env:production",
     "app:one",
     "cluster:onedmz",
-    "ns:market-data",
-    "role:market-data",
-    "svc-name:crawl-data-svc",
-    "svc-type:api",
-    "team:it"
-  ]
-}
----
-## Service 12
-{
-  "schema-version": "v2.2",
-  "dd-service": "agent",
-  "team": "IT",
-  "lifecycle": "production",
-  "application": "market-data",
-  "description": "api for fiin data",
-  "tier": "1",
-  "type": "job",
-  "languages": [
-    "javascript"
-  ],
-  "contacts": [
-    {
-      "type": "slack",
-      "contact": "https://hooks.slack.com/services/xxx"
-    },
-    {
-      "type": "email",
-      "contact": "apps@xxx.com.vn"
-    },
-    {
-      "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/xxx"
-    }
-  ],
-  "links": [
-    {
-      "name": "Source",
-      "type": "repo",
-      "provider": "git",
-      "url": "https://dev.azure.com/xxx"
-    }
-  ],
-  "tags": [
-    "env:production",
-    "app:one",
-    "cluster:onedmz",
-    "ns:market-data",
-    "role:market-data",
-    "svc-name:fiin-data-svc",
-    "svc-type:api",
+    "ns:datafeed",
+    "svc-name:stream-nonmstr",
+    "svc-type:datafeed",
     "team:it",
-    "url:mdata.xxx.com.vn"
+    "url:market-streaming.hsc.com.vn/connection/websocket"
   ]
 }
 ---
-## Service 13
+## Service 5
 {
   "schema-version": "v2.2",
-  "dd-service": "operator",
+  "dd-service": "streaming-dev",
   "team": "IT",
   "lifecycle": "production",
-  "application": "market-data",
-  "description": "api for foreign data",
+  "application": "datafeed",
+  "description": "streaming server",
   "tier": "1",
-  "type": "cache",
+  "type": "app",
   "languages": [
-    "python"
+    "go"
   ],
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/xxx"
+      "contact": "https://hooks.slack.com/services/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"
     },
     {
       "type": "email",
-      "contact": "apps@xxx.com.vn"
+      "contact": "apps@hsc.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/xxx"
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
     }
   ],
   "links": [
@@ -126,113 +191,16 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/xxx"
+      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
     }
   ],
   "tags": [
     "env:production",
     "app:one",
     "cluster:onedmz",
-    "ns:market-data",
-    "role:market-data",
-    "svc-name:foreign-data-svc",
-    "svc-type:api",
-    "team:it",
-    "url:essentials-info.xxx.com.vn"
-  ]
-}
----
-## Service 14
-{
-  "schema-version": "v2.2",
-  "dd-service": "cluster-agent",
-  "team": "IT",
-  "lifecycle": "production",
-  "application": "market-data",
-  "description": "api for market data",
-  "tier": "2",
-  "type": "mobile",
-  "languages": [
-    "dotnet"
-  ],
-  "contacts": [
-    {
-      "type": "slack",
-      "contact": "https://hooks.slack.com/services/xxx"
-    },
-    {
-      "type": "email",
-      "contact": "apps@xxx.com.vn"
-    },
-    {
-      "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/xxx"
-    }
-  ],
-  "links": [
-    {
-      "name": "Source",
-      "type": "repo",
-      "provider": "git",
-      "url": "https://dev.azure.com/xxx"
-    }
-  ],
-  "tags": [
-    "env:production",
-    "app:one",
-    "cluster:onedmz",
-    "ns:market-data",
-    "role:market-data",
-    "svc-name:market-data-api-svc",
-    "svc-type:api",
-    "team:it",
-    "url:marketapi.xxx.com.vn"
-  ]
-}
----
-## Service 15
-{
-  "schema-version": "v2.2",
-  "dd-service": "mirrored-coredns-coredns",
-  "team": "IT",
-  "lifecycle": "production",
-  "application": "market-data",
-  "description": "store historical data",
-  "tier": "1",
-  "type": "browser",
-  "languages": [
-    "python"
-  ],
-  "contacts": [
-    {
-      "type": "slack",
-      "contact": "https://hooks.slack.com/services/xxx"
-    },
-    {
-      "type": "email",
-      "contact": "apps@xxx.com.vn"
-    },
-    {
-      "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/xxx"
-    }
-  ],
-  "links": [
-    {
-      "name": "Source",
-      "type": "repo",
-      "provider": "git",
-      "url": "https://dev.azure.com/xxx"
-    }
-  ],
-  "tags": [
-    "env:production",
-    "app:one",
-    "cluster:onedmz",
-    "ns:market-data",
-    "role:market-data",
-    "svc-name:market-his-svc",
-    "svc-type:api",
+    "ns:datafeed",
+    "svc-name:streaming-dev",
+    "svc-type:datafeed",
     "team:it"
   ]
 }
