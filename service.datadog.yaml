@@ -13,15 +13,15 @@
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/T04RYNTH71P/B0750H4B3L0/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/xxx"
     }
   ],
   "tags": [
@@ -32,7 +32,7 @@
     "svc-name:kong-dmz",
     "svc-type:Kong",
     "team:it",
-    "url:market-streaming.hsc.com.vn/connection/websocket"
+    "url:market-streaming.hsc.com.vn/connection/xxx"
   ]
 }
 ---
@@ -51,15 +51,15 @@
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/T04RYNTH71P/B0750H4B3L0/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/xxx"
     }
   ],
   "tags": [
@@ -70,7 +70,7 @@
     "svc-name:kong-internal",
     "svc-type:Kong",
     "team:it",
-    "url:market-streaming.hsc.com.vn/connection/websocket"
+    "url:market-streaming.hsc.com.vn/connection/xxx"
   ]
 }
 ---
@@ -89,15 +89,15 @@
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/T04RYNTH71P/B0750H4B3L0/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/xxx"
     }
   ],
   "tags": [
@@ -108,7 +108,7 @@
     "svc-name:kong-streaming",
     "svc-type:Kong",
     "team:it",
-    "url:market-streaming.hsc.com.vn/connection/websocket"
+    "url:market-streaming.hsc.com.vn/connection/xxx"
   ]
 }
 ---
@@ -128,23 +128,15 @@
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/T04RYNTH71P/B0750H4B3L0/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
-    }
-  ],
-  "links": [
-    {
-      "name": "Source",
-      "type": "repo",
-      "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/xxx"
     }
   ],
   "tags": [
@@ -155,7 +147,7 @@
     "svc-name:stream-nonmstr",
     "svc-type:datafeed",
     "team:it",
-    "url:market-streaming.hsc.com.vn/connection/websocket"
+    "url:market-streaming.hsc.com.vn/connection/xxx"
   ]
 }
 ---
@@ -175,15 +167,15 @@
   "contacts": [
     {
       "type": "slack",
-      "contact": "https://hooks.slack.com/services/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"
+      "contact": "https://hooks.slack.com/services/T04RYNTH71P/B0750H4B3L0/xxx"
     },
     {
       "type": "email",
-      "contact": "apps@hsc.com.vn"
+      "contact": "apps@xxx.com.vn"
     },
     {
       "type": "microsoft-teams",
-      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/General?groupId=afc48813-39d4-47b1-b589-386b168ff14e&tenantId="
+      "contact": "https://teams.microsoft.com/l/channel/19%3A918a8186ad9847fc92db06e844c0bceb%40thread.skype/xxx"
     }
   ],
   "links": [
@@ -191,7 +183,7 @@
       "name": "Source",
       "type": "repo",
       "provider": "git",
-      "url": "https://dev.azure.com/HSC-Inhouse-Dev/PriceBoard/_git/Data-feed-deployment"
+      "url": "https://dev.azure.com/xxx"
     }
   ],
   "tags": [
